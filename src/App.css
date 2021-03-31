@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+    background-color: #B6D7C2;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: auto;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: auto;
+    }
+}
+
